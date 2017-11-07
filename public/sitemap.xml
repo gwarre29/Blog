@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hugo.spf13.com/post/time-series/</loc>
+    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hugo.spf13.com/post/scatter-plots/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
   </url>
@@ -86,7 +91,7 @@
   
   <url>
     <loc>http://hugo.spf13.com/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -122,13 +127,13 @@
   
   <url>
     <loc>http://hugo.spf13.com/post/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hugo.spf13.com/categories/r/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -152,7 +157,7 @@
   
   <url>
     <loc>http://hugo.spf13.com/tags/visualizations/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
