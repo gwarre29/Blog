@@ -1,4 +1,4 @@
-baseurl = "http://hugo.spf13.com/"
+baseurl = "https://georgiesblog.netlify.com/"
 languageCode = "en-us"
 title = "Georgie's Blog"
 theme = "hugo-future-imperfect"

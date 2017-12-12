@@ -1,22 +1,22 @@
 ---
 title: Scatter Plots
-author: ''
-date: '2017-11-05'
+author: Georgie Warren
+date: '2017-12-12'
 slug: scatter-plots
 categories:
   - R
 tags:
-  - Visualizations
+  - scatterplot
+  - sql
 ---
 
 Welcome to my first lesson on Data Science! Today, we will be disussing Scatter Plots. We are going to be extracting data from a database of baseball statistics in order to demostarte how to make a Scatter Plot. Remember, you must always begin by installing the necessary packages into RStudio and subsequently bringing them in with Library(). This includes Lahman, sqldf and ggplot2. 
 
-```{r}
+```{r warning= FALSE, message= FALSE}
 library(Lahman)
 library(sqldf)
 library(ggplot2)
 ```
-
 
 Now, lets take a look at this query I have below! As you can see, I am narrowing all the information down within the baseball database in order to find career homeruns and strikeouts from players who had 400 or more homeruns. 
 
