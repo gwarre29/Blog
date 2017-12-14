@@ -49,8 +49,8 @@ library(Lahman) library(sqldf) library(ggplot2) Now, lets take a look at this qu
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/time-series/</guid>
-      <description>Welcome to my first lesson on Data Science! Today we are going to be learning about how to make a Time Series! Just like with Scatter Plots, we need to download all of our packages and bring them in through library.
-library(Lahman) library(sqldf) library(ggplot2) Again, we are going to be using the baseball database in order to make the Time Series. However, for this example we are going to be specifically using data about one specific player, Babe Ruth.</description>
+      <description>Welcome to my first lesson on Data Science! Today we are going to be learning about how to make a Time Series! The very first (and extremely important) step that we need to take is to download all of our packages and bring them in through library. In this case, that includes: Lahman, sqldf and ggplot2.
+library(Lahman) library(sqldf) library(ggplot2) Again, we are going to be using the baseball database in order to make the Time Series.</description>
     </item>
     
     <item>

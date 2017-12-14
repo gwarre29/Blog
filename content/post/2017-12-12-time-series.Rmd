@@ -10,7 +10,7 @@ tags:
   - sql
 ---
 
-Welcome to my first lesson on Data Science! Today we are going to be learning about how to make a Time Series! The very first (and extremely important) step that we need to take is to download all of our packages and bring them in through library. In this case, that includes: Lahman, sqldf and ggplot2
+Welcome to my first lesson on Data Science! Today we are going to be learning about how to make a Time Series! The very first (and extremely important) step that we need to take is to download all of our packages and bring them in through library. In this case, that includes: Lahman, sqldf and ggplot2.
 
 ```{r warning= FALSE, message= FALSE}
 library(Lahman)
