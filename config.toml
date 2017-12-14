@@ -72,7 +72,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "/Home/"
     identifier = "fa fa-home"
     weight = 1
 
