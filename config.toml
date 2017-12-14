@@ -54,12 +54,12 @@ pluralizeListTitles = false
 # A width of less than 100px is recommended
 # This is optional
 [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/c0.20.160.160/p160x160/14731379_830806690394344_7202963670794902886_n.jpg?oh=bdb4c78d70299b683de3280f53dc8450&oe=5AD7DB74"
     # modify your picture in the shape of a circle or
     # future imperfect's hexagonal shape
-    circle    = false
-    imperfect = true
-    width     = ""
+    circle    = true
+    imperfect = false
+    width     = "100"
     alt       = "Hugo Future Imperfect"
 
 # Adjust the amount of recent posts on the sidebar.
@@ -75,12 +75,6 @@ pluralizeListTitles = false
     url = "/"
     identifier = "fa fa-home"
     weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    identifier = "fa fa-id-card-o"
-    weight = 2
 
 [[menu.main]]
     name = "Blog"
