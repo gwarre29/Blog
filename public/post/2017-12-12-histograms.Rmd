@@ -1,0 +1,60 @@
+---
+title: Histograms
+author: Georgie Warren
+date: '2017-12-12'
+slug: histograms
+categories:
+  - R
+tags:
+  - histogram
+  - sql
+---
+
+Welcome back to my Data Science blog! Today we are going to be having a lesson on histograms! Just like with all of our previous lessons, we need to download all of our packages and bring them in through library.
+
+Below, are all of the packages that we need!
+
+```{r warning= FALSE, message= FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+```
+
+This is query that we need in order to get the data on the weights of baseball players.
+
+```{r}
+query<-"SELECT weight FROM Master"
+result<-sqldf(query)
+```
+
+Now, using ggplot, we can personalize our histogram by changing the colors, bins and labels! Very important! 
+
+```{r}
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="blue",fill="white",bins=60)+
+  ggtitle("Distribution of Baseball Player Bodyweight")+
+  xlab("Weight of player")+
+  ylab("Number of players")
+```
+
+As you can see, histograms are very similar to scatter plots! Although, there are a few commands that are necessary for histograms.
+
+```{r}
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="blue",fill="white",bins=10)+
+  ggtitle("Distribution of Baseball Player Bodyweight")+
+  xlab("Weight of player")+
+  ylab("Number of players")
+```
+
+As a way to help y'all visualize the importance of bin numbers, above I only have 10 bins and below I changed that number to 100!
+
+```{r}
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="blue",fill="white",bins=100)+
+  ggtitle("Distribution of Baseball Player Bodyweight")+
+  xlab("Weight of player")+
+  ylab("Number of players")
+```
+
+Nice job everyone, we just successfully make a histogram!! More to come, next time we will look into how to make a bar plot!

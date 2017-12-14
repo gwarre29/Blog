@@ -35,11 +35,11 @@
         <meta property="og:title" content="R" />
 <meta property="og:description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://hugo.spf13.com/categories/r/" />
+<meta property="og:url" content="/categories/r/" />
 
 
 
-<meta property="og:updated_time" content="2017-11-07T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-12-12T00:00:00&#43;00:00"/>
 
 
 
@@ -120,7 +120,7 @@
                 <a class="fa-search" href="#search">Search</a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="http://hugo.spf13.com/">
+                    <input type="hidden" name="as_sitesearch" value="/">
                 </form>
             </li>
             <li class="menu">
@@ -137,7 +137,7 @@
         <section>
             <form class="search" method="get" action="//google.com/search">
                 <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="q" value="site:http://hugo.spf13.com/">
+                <input type="hidden" name="q" value="site:/">
             </form>
         </section>
 
@@ -184,11 +184,11 @@
 
                 
                     <li>
-                        <a href="http://hugo.spf13.com/post/time-series/"><p>Time Series</p></a>
+                        <a href="/post/bar-plots/"><p>Bar Plots</p></a>
                     </li>
                 
                     <li>
-                        <a href="http://hugo.spf13.com/post/scatter-plots/"><p>Scatter Plots</p></a>
+                        <a href="/post/histograms/"><p>Histograms</p></a>
                     </li>
                 
             </ul>
@@ -207,7 +207,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="http://hugo.spf13.com/post/time-series/">Time Series</a></h2>
+            <h2><a href="/post/bar-plots/">Bar Plots</a></h2>
         
         
     </div>
@@ -215,11 +215,11 @@
         
 
         <time class="published"
-            datetime='2017-11-07'>
-            November 7, 2017</time>
-        <span class="author"></span>
+            datetime='2017-12-12'>
+            December 12, 2017</time>
+        <span class="author">Georgie Warren</span>
         
-            <p>0 minute read</p>
+            <p>1 minute read</p>
         
         
     </div>
@@ -227,11 +227,13 @@
 
     
 
-    <p></p>
+    <p>Welcome back to my Data Science blog! In this lesson today we are going to dicuss how to make a bar plot! As always, we need to download all of our necessary packages and bring them in through library, as shown below!
+library(Lahman) library(sqldf) library(ggplot2) This is the query that we need in order to get the data on total homeruns for MLB teams in 1980!
+query&lt;-&quot;SELECT name,HR FROM Teams WHERE yearID=1980 ORDER BY HR &quot; result&lt;-sqldf(query) result$name&lt;-factor(result$name,levels=result$name) Now it’s time to add our own personal touch to our bar plot!</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="http://hugo.spf13.com/post/time-series/" class="button big">Continue Reading</a></li>
+            <li><a href="/post/bar-plots/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
@@ -266,7 +268,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="http://hugo.spf13.com/post/scatter-plots/">Scatter Plots</a></h2>
+            <h2><a href="/post/histograms/">Histograms</a></h2>
         
         
     </div>
@@ -274,9 +276,70 @@
         
 
         <time class="published"
-            datetime='2017-11-05'>
-            November 5, 2017</time>
-        <span class="author"></span>
+            datetime='2017-12-12'>
+            December 12, 2017</time>
+        <span class="author">Georgie Warren</span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Welcome back to my Data Science blog! Today we are going to be having a lesson on histograms! Just like with all of our previous lessons, we need to download all of our packages and bring them in through library.
+Below, are all of the packages that we need!
+library(Lahman) library(sqldf) library(ggplot2) This is query that we need in order to get the data on the weights of baseball players.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="/post/histograms/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/r'>R</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="/post/scatter-plots/">Scatter Plots</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-12-12'>
+            December 12, 2017</time>
+        <span class="author">Georgie Warren</span>
         
             <p>3 minute read</p>
         
@@ -287,11 +350,11 @@
     
 
     <p>Welcome to my first lesson on Data Science! Today, we will be disussing Scatter Plots. We are going to be extracting data from a database of baseball statistics in order to demostarte how to make a Scatter Plot. Remember, you must always begin by installing the necessary packages into RStudio and subsequently bringing them in with Library(). This includes Lahman, sqldf and ggplot2.
-library(Lahman) library(sqldf) ## Loading required package: gsubfn ## Loading required package: proto ## Warning in doTryCatch(return(expr), name, parentenv, handler): unable to load shared object &#39;/Library/Frameworks/R.</p>
+library(Lahman) library(sqldf) library(ggplot2) Now, lets take a look at this query I have below!</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="http://hugo.spf13.com/post/scatter-plots/" class="button big">Continue Reading</a></li>
+            <li><a href="/post/scatter-plots/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
@@ -330,7 +393,8 @@ library(Lahman) library(sqldf) ## Loading required package: gsubfn ## Loading re
     
 
     
-        <li><a href="#" class="disabled button big next">Next Page</a></li>
+        <li><a href="/categories/r/page/2/"
+                class="button big next">Next Page</a></li>
     
 </ul>
 
@@ -431,11 +495,11 @@ library(Lahman) library(sqldf) ## Loading required package: gsubfn ## Loading re
                     <li>
                         <article>
                             <header>
-                                <h3><a href="http://hugo.spf13.com/post/time-series/">Time Series</a></h3>
+                                <h3><a href="/post/bar-plots/">Bar Plots</a></h3>
                                 
                                 <time class="published" datetime=
-                                    '2017-11-07'>
-                                    November 7, 2017</time>
+                                    '2017-12-12'>
+                                    December 12, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -443,11 +507,11 @@ library(Lahman) library(sqldf) ## Loading required package: gsubfn ## Loading re
                     <li>
                         <article>
                             <header>
-                                <h3><a href="http://hugo.spf13.com/post/scatter-plots/">Scatter Plots</a></h3>
+                                <h3><a href="/post/histograms/">Histograms</a></h3>
                                 
                                 <time class="published" datetime=
-                                    '2017-11-05'>
-                                    November 5, 2017</time>
+                                    '2017-12-12'>
+                                    December 12, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -485,44 +549,17 @@ library(Lahman) library(sqldf) ## Loading required package: gsubfn ## Loading re
                     <li>
                         <article>
                             <header>
+                                <a href="/categories/r/">R</a>
+                                <span style="float:right;">5</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="/categories//"></a>
                                 <span style="float:right;">4</span>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <a href="/categories/hugo/">Hugo</a>
-                                <span style="float:right;">3</span>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <a href="/categories/r/">R</a>
-                                <span style="float:right;">3</span>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <a href="/categories/go/">Go</a>
-                                <span style="float:right;">1</span>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <a href="/categories/jekyll/">Jekyll</a>
-                                <span style="float:right;">1</span>
                             </header>
                         </article>
                     </li>
@@ -538,7 +575,7 @@ library(Lahman) library(sqldf) ## Loading required package: gsubfn ## Loading re
         <section id="footer">
             <ul class="icons">
                 
-                    <li><a href="http://hugo.spf13.com/categories/r/index.xml" type="application/rss+xml"
+                    <li><a href="/categories/r/index.xml" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
                 

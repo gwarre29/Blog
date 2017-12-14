@@ -2,48 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Georgie&#39;s Blog</title>
-    <link>http://hugo.spf13.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Georgie&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://hugo.spf13.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bar plot</title>
+      <link>/tags/bar-plot/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bar-plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histogram</title>
+      <link>/tags/histogram/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/histogram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Plot</title>
-      <link>http://hugo.spf13.com/tags/plot/</link>
+      <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>http://hugo.spf13.com/tags/plot/</guid>
+      <guid>/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>http://hugo.spf13.com/tags/r-markdown/</link>
+      <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>http://hugo.spf13.com/tags/r-markdown/</guid>
+      <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regression</title>
-      <link>http://hugo.spf13.com/tags/regression/</link>
+      <link>/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>http://hugo.spf13.com/tags/regression/</guid>
+      <guid>/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Visualizations</title>
-      <link>http://hugo.spf13.com/tags/visualizations/</link>
-      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <title>Scatterplot</title>
+      <link>/tags/scatterplot/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://hugo.spf13.com/tags/visualizations/</guid>
+      <guid>/tags/scatterplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql</title>
+      <link>/tags/sql/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time series</title>
+      <link>/tags/time-series/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/time-series/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,43 @@
+---
+title: Bar Plots
+author: Georgie Warren
+date: '2017-12-12'
+slug: bar-plots
+categories:
+  - R
+tags:
+  - bar plot
+  - sql
+---
+
+Welcome back to my Data Science blog! In this lesson today we are going to dicuss how to make a bar plot! As always, we need to download all of our necessary packages and bring them in through library, as shown below!
+
+```{r warning= FALSE, message= FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+```
+
+This is the query that we need in order to get the data on total homeruns for MLB teams in 1980!
+
+```{r}
+query<-"SELECT name,HR FROM Teams WHERE yearID=1980 ORDER BY HR "
+result<-sqldf(query)
+
+result$name<-factor(result$name,levels=result$name)
+```
+
+Now it's time to add our own personal touch to our bar plot! Lets give it a title with labels on the X and Y axis!
+
+```{r}
+ggplot()+
+  geom_bar(data=result,aes(x=name,y=HR),stat='identity')+
+  coord_flip()+
+  ggtitle("1980 Team Homerun Totals")+
+  xlab("Team Name")+
+  ylab("Homeruns")
+```
+
+Make sure to look at the above example and see how we strategically flipped the X and Y axis on the graph in order to get the proper output of data! 
+
+Nice job everyone, we just made our very own bar plot!!

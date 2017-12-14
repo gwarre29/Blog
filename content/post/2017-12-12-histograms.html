@@ -1,0 +1,47 @@
+---
+title: Histograms
+author: Georgie Warren
+date: '2017-12-12'
+slug: histograms
+categories:
+  - R
+tags:
+  - histogram
+  - sql
+---
+
+
+
+<p>Welcome back to my Data Science blog! Today we are going to be having a lesson on histograms! Just like with all of our previous lessons, we need to download all of our packages and bring them in through library.</p>
+<p>Below, are all of the packages that we need!</p>
+<pre class="r"><code>library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<p>This is query that we need in order to get the data on the weights of baseball players.</p>
+<pre class="r"><code>query&lt;-&quot;SELECT weight FROM Master&quot;
+result&lt;-sqldf(query)</code></pre>
+<p>Now, using ggplot, we can personalize our histogram by changing the colors, bins and labels! Very important!</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;blue&quot;,fill=&quot;white&quot;,bins=60)+
+  ggtitle(&quot;Distribution of Baseball Player Bodyweight&quot;)+
+  xlab(&quot;Weight of player&quot;)+
+  ylab(&quot;Number of players&quot;)</code></pre>
+<pre><code>## Warning: Removed 854 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/post/2017-12-12-histograms_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>As you can see, histograms are very similar to scatter plots! Although, there are a few commands that are necessary for histograms.</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;blue&quot;,fill=&quot;white&quot;,bins=10)+
+  ggtitle(&quot;Distribution of Baseball Player Bodyweight&quot;)+
+  xlab(&quot;Weight of player&quot;)+
+  ylab(&quot;Number of players&quot;)</code></pre>
+<pre><code>## Warning: Removed 854 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/post/2017-12-12-histograms_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>As a way to help y’all visualize the importance of bin numbers, above I only have 10 bins and below I changed that number to 100!</p>
+<pre class="r"><code>ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;blue&quot;,fill=&quot;white&quot;,bins=100)+
+  ggtitle(&quot;Distribution of Baseball Player Bodyweight&quot;)+
+  xlab(&quot;Weight of player&quot;)+
+  ylab(&quot;Number of players&quot;)</code></pre>
+<pre><code>## Warning: Removed 854 rows containing non-finite values (stat_bin).</code></pre>
+<p><img src="/post/2017-12-12-histograms_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>Nice job everyone, we just successfully make a histogram!! More to come, next time we will look into how to make a bar plot!</p>

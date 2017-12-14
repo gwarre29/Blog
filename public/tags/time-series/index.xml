@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time series on Georgie&#39;s Blog</title>
+    <link>/tags/time-series/</link>
+    <description>Recent content in Time series on Georgie&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Time Series</title>
+      <link>/post/time-series/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/time-series/</guid>
+      <description>Welcome back to my Data Science blog! Today we are going to be learning about how to make a Time Series! Just like with Scatter Plots, we need to download all of our packages and bring them in through library.
+library(Lahman) library(sqldf) library(ggplot2) Again, we are going to be using the baseball database in order to make the Time Series. However, for this example we are going to be specifically using data about one specific player, Babe Ruth.</description>
+    </item>
+    
+  </channel>
+</rss>

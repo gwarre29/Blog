@@ -3,161 +3,152 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://hugo.spf13.com/post/time-series/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <loc>/post/bar-plots/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/post/scatter-plots/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <loc>/post/histograms/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/post/test/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <loc>/post/scatter-plots/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/itemized/item1/</loc>
+    <loc>/post/time-series/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/itemized/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/itemized/item2/</loc>
+    <loc>/itemized/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/itemized/item3/</loc>
+    <loc>/itemized/item3/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/itemized/item4/</loc>
+    <loc>/itemized/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/2015-07-23-r-rmarkdown/</loc>
+    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hugo.spf13.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hugo.spf13.com/blog/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hugo.spf13.com/blog/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hugo.spf13.com/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/</loc>
+    <loc>/tags/bar-plot/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/histogram/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hugo.spf13.com/itemized/</loc>
+    <loc>/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hugo.spf13.com/tags/plot/</loc>
+    <loc>/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/post/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/r/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/regression/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/tags/scatterplot/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/visualizations/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <loc>/tags/sql/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/time-series/</loc>
+    <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
