@@ -39,7 +39,7 @@ library(Lahman) library(sqldf) library(ggplot2) This is query that we need in or
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/scatter-plots/</guid>
-      <description>Welcome to my first lesson on Data Science! Today, we will be disussing Scatter Plots. We are going to be extracting data from a database of baseball statistics in order to demostarte how to make a Scatter Plot. Remember, you must always begin by installing the necessary packages into RStudio and subsequently bringing them in with Library(). This includes Lahman, sqldf and ggplot2.
+      <description>Welcome back to my Data Science blog! Today, we will be disussing Scatter Plots. We are going to be extracting data from a database of baseball statistics in order to demostarte how to make a Scatter Plot. Remember, you must always begin by installing the necessary packages into RStudio and subsequently bringing them in with Library(). This includes Lahman, sqldf and ggplot2.
 library(Lahman) library(sqldf) library(ggplot2) Now, lets take a look at this query I have below!</description>
     </item>
     
@@ -49,7 +49,7 @@ library(Lahman) library(sqldf) library(ggplot2) Now, lets take a look at this qu
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/time-series/</guid>
-      <description>Welcome back to my Data Science blog! Today we are going to be learning about how to make a Time Series! Just like with Scatter Plots, we need to download all of our packages and bring them in through library.
+      <description>Welcome to my first lesson on Data Science! Today we are going to be learning about how to make a Time Series! Just like with Scatter Plots, we need to download all of our packages and bring them in through library.
 library(Lahman) library(sqldf) library(ggplot2) Again, we are going to be using the baseball database in order to make the Time Series. However, for this example we are going to be specifically using data about one specific player, Babe Ruth.</description>
     </item>
     
